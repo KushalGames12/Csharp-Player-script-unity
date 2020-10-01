@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
+        Scaler.x *= 1
         transform.localScale = Scaler;
     }
 }
